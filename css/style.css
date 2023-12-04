@@ -1,0 +1,46 @@
+/* RESET */
+html{
+    font-size: 62.5%; /* 16 px mult par 62.5% = 10 rem */
+}
+body{
+    font: 1.6rem sans-serif;
+    margin: 0;
+    letter-spacing: .1rem; /* 1px */
+    line-height: 1.6;
+    background-color: var(--bgcolor-theme);
+    
+    
+}
+h1,h2,h3,p,figure,ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-weight: normal;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* THEME */
+:root{
+    --bgcolor-theme: rgba(45, 52, 54,1.0);
+    --bgcolor-header: #222;
+    --bgcolor-list: rgba(223, 230, 233,1.0);
+    --letter-color: #fff;
+    --letter-color-default: #222;
+}
+/* header */
+header{
+    background: var(--bgcolor-header);
+    margin-bottom: 5rem;
+}
+header h1{
+    text-align: center;
+    color: var(--letter-color);
+    line-height: 6.5rem;
+
+}
+figure{
+    max-width: 90rem;
+    margin: 0 auto;
+}
