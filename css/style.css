@@ -43,4 +43,29 @@ header h1{
 figure{
     max-width: 90rem;
     margin: 0 auto;
+    border: solid .1rem #f5ebeb;
+    padding: 1rem;
+    background-color: var(--letter-color);
+
+}
+figure img {
+    opacity: .5rem;
+    display: inline-block;
+    max-width: 100%;
+
+}
+figure figcaption ul{
+    line-height: 4.5rem;
+}
+figure figcaption ul.list-movie li{
+    padding: 0 .5rem;
+}
+/* 1sur2 */
+figure figcaption ul.list-movie li:nth-child(2n+ 0){
+    background-color: var(--bgcolor-list);
+}
+details{
+    background-color: var(--bgcolor-list);
+    line-height: 3rem;
+    padding: 0 .5rem;
 }
