@@ -1,5 +1,5 @@
 /* RESET */
-@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
 html{
     font-size: 62.5%; /* 16 px mult par 62.5% = 10 rem */ 
 }
@@ -101,17 +101,4 @@ footer *{
     text-align: center;
     color: var(--letter-color);
     line-height: 4.5rem;
-}
-
-
-/* media queris */
-
-@media screen and (max-width: 90rem) {
-    figure caption ul{
-        line-height: 3.5rem;
-    }
-    details p {
-        text-align: justify;
-    }
-    
 }
