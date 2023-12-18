@@ -2,13 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
 html{
     font-size: 62.5%; /* 16 px mult par 62.5% = 10 rem */ 
-}
+ 
+    background:url(../asset/rym574876.jpg)no-repeat fixed center center / cover;
+    background:linear-gradient(to top,rgba(0,0,0,.6) 50%,rgba(0,0,0,.6) 50%), 
+} 
 body{
     font: 1.6rem "Montserrat",sans-serif;
     margin: 0;
     letter-spacing: .1rem; /* 1px */
     line-height: 1.6;
-    background-color: var(--bgcolor-theme);
+  
     
     
 }
