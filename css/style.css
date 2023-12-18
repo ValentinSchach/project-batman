@@ -2,6 +2,7 @@
 @import url("./reset.css");
 html{
     font-size: 62.5%; /* 16 px mult par 62.5% = 10 rem */ 
+    background: url(../asset/rym574876.jpg)no-repeat center center fixed / cover;
 }
 body{
     font: 1.6rem "Montserrat",sans-serif;
